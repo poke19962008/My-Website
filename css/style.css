@@ -1,0 +1,162 @@
+body{
+  background: #70e1f5;
+  background: -webkit-linear-gradient(to left, #70e1f5 , #ffd194);
+  background: linear-gradient(to left, #70e1f5 , #ffd194);
+
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+
+  visibility: hidden;
+}
+
+#loading{
+  visibility: visible;
+  text-align: center;
+
+  padding-top: 60px;
+}
+
+.ball-pulse-sync > div {
+  background: #FFF5EE;
+}
+
+#intro_section .myName {
+  font-weight: 100;
+  font-size: 770%;
+  color: #F4F0EC;
+
+  padding-top: 160px;
+  padding-bottom: 15px;
+
+  text-align: center;
+}
+
+#intro_section .slogan{
+  font-weight: 200;
+  font-size: 250%;
+  color: #FFF5EE;
+
+  text-align: center;
+
+  padding-bottom: 50%;
+}
+
+#description{
+  background: #00C9FF;
+  background: -webkit-linear-gradient(to left, #00C9FF , #7BDFC7);
+  background: linear-gradient(to left, #00C9FF , #7BDFC7);
+
+  padding-top: 37px;
+  padding-bottom: 45px;
+
+}
+
+#description .title{
+  font-weight: normal;
+  font-size: 270%;
+  color: #525252;
+}
+
+#description .avatar {
+  float: left;
+
+  margin-top: 20px;
+}
+
+#description .avatar img{
+  height: 250px;
+  object-fit: fill;
+
+  border-radius: 5px;
+}
+
+#description .content {
+  margin-left: 500px;
+  text-align: center;
+
+  color: white;
+  font-size: 187%;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+
+#my-works{
+  background: #ECE9E6;
+  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF);
+  background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer .cnt_header {
+  font-weight: normal;
+  font-size: 145%;
+  color: #4A4A4A;
+}
+
+footer .cnt_content li{
+  list-style: none;
+  font-size: 100%;
+  color: #5E5E5E;
+}
+
+/*Blinking Cursor Initial*/
+.blinking-cursor {
+  font-weight: normal;
+  font-size: 100%;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #A1A1A1;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #A1A1A1;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #A1A1A1;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #A1A1A1;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #A1A1A1;
+  }
+}
