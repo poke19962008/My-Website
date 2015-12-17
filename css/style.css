@@ -16,9 +16,11 @@ body{
 }
 
 .ball-pulse-sync > div {
-  background: #FFF5EE;
+  background: white;
 }
 
+
+/* Introduction */
 #intro_section .myName {
   font-weight: 100;
   font-size: 770%;
@@ -40,6 +42,8 @@ body{
   padding-bottom: 50%;
 }
 
+
+/* Description */
 #description{
   background: #00C9FF;
   background: -webkit-linear-gradient(to left, #00C9FF , #7BDFC7);
@@ -48,11 +52,13 @@ body{
   padding-top: 37px;
   padding-bottom: 45px;
 
+  box-shadow: 0px -10px 80px -20px #444;
 }
 
 #description .title{
-  font-weight: normal;
-  font-size: 270%;
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: 200;
+  font-size: 42px;
   color: #525252;
 }
 
@@ -73,13 +79,15 @@ body{
   margin-left: 500px;
   text-align: center;
 
-  color: white;
-  font-size: 187%;
-  font-weight: lighter;
+  color: #EFF0F8;
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: 200;
+  font-size: 24px;
   margin-top: 20px;
 }
 
-#my-works{
+/*My Works*/
+#my_works{
   background: #ECE9E6;
   background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF);
   background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
@@ -88,9 +96,83 @@ body{
   padding-bottom: 20px;
 }
 
+.my_works_title{
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 72px;
+  line-height: 1.0556;
+  font-weight: 200;
+  letter-spacing: -0.024em;
+  margin-bottom: 0;
+
+  color: #444;
+
+  padding-top: 20%;
+}
+
+.my_works_desc{
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 18px;
+  line-height: 1.1429;
+  font-weight: 200;
+  letter-spacing: -0.01em;
+  color: #333;
+  text-align: left;
+
+  padding-top: 20px;
+  padding-bottom: 50px;
+  width: 600px;
+  float: left;
+}
+
+.my_works_title_img {
+  float: right;
+}
+
+.my_works_title_img img {
+  object-fit: fill;
+  height: 270px;
+  -webkit-filter: drop-shadow(2px 2px 15px rgba(0,0,0,0.5));
+}
+
+.my_works_content {
+  padding-top: 30%;
+}
+
+.my_works_content ul li {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  list-style: none;
+}
+
+.my_works_content .title_left{
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 40px;
+  text-align: left;
+}
+
+.my_works_content .title_right{
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 40px;
+  text-align: right;
+}
+
+.my_works_content .content_left {
+  width: 600px;
+  float: left;
+  text-align: left;
+}
+
+.my_works_content .content_right {
+  width: 600px;
+  float: right;
+  text-align: right;
+}
+
+/*Footer*/
 footer {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  box-shadow: 0px -5px 80px -20px #444;
 }
 
 footer .cnt_header {
@@ -103,6 +185,22 @@ footer .cnt_content li{
   list-style: none;
   font-size: 100%;
   color: #5E5E5E;
+}
+
+footer .foot_cr {
+  padding-top: 5px;
+
+  text-align: center;
+  font-size: 13px;
+  color: #7E7D82;
+}
+
+footer .foot_note {
+  padding-top: 5px;
+
+  text-align: center;
+  font-size: 11px;
+  color: #999;
 }
 
 /*Blinking Cursor Initial*/
