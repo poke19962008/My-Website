@@ -13,6 +13,10 @@ app.get('/getContent', function(req, res){
   res.render('template.jade', {content: content});
 });
 
+app.get('/*', function (req, res){
+	res.redirect('/404');
+});
+
 app.listen(3500, function(){
   console.log('Listening on port 3500');
 
