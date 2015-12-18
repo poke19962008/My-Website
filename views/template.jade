@@ -1,0 +1,51 @@
+- each header in content
+  div
+    div.my_works_title 
+      = header.title
+      
+    div(class = ['my_works_desc', 'reveal'])
+      = header.description
+      
+    div.my_works_title_img
+      img(src = [header.img.src], alt = [header.img.alt])
+      
+    div.my_works_content
+      ul
+        - var counter = 0
+        - var contDescClass = ""
+        - var contTitleClass = ""
+        - var contImgClass = ""
+        - each titleContent in header.content
+          li
+            - if (counter % 2 == 0) {
+                - contDescClass = 'content_left'
+                - contTitleClass = 'title_left'
+                - contImgClass = 'img_right'
+            - } else {
+              - contDescClass = 'content_right'
+              - contTitleClass = 'title_right'
+              - contImgClass = 'img_left'
+            - }
+            - counter = counter + 1
+            
+            div(class = [contTitleClass])
+              = titleContent.title
+              
+            div(class = [contDescClass])
+              = titleContent.description
+              
+              div(class = ['glyph'])
+                - if(titleContent.GitHub.is){
+                  a(href = [titleContent.GitHub.url])
+                    i(class = ['fi-social-github size-48'])
+                - }
+                
+                - if(titleContent.link.is){
+                  a(href = [titleContent.link.url])
+                    i(class = ['fi-link size-48'])
+                - }
+            
+            - if (titleContent.img.is){
+              div(class = [contImgClass])
+                img(src = [titleContent.img.url], alt = [titleContent.img.alt])
+            - }
