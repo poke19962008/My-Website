@@ -138,10 +138,11 @@ body{
   padding-top: 27%;
 }
 
-.my_works_content ul li {
-  padding-top: 100px;
-  padding-bottom: 100px;
+.my_works_content ul li{
+  padding-top: 50px;
+  padding-bottom: 50px;
   list-style: none;
+  overflow: hidden;
 }
 
 .my_works_content .title_left{
@@ -178,6 +179,11 @@ body{
 }
 
 .my_works_content .img_right img{
+  object-fit: fill;
+  height: 350px;
+}
+
+.my_works_content .img_left img{
   object-fit: fill;
   height: 350px;
 }

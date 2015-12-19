@@ -9,7 +9,7 @@ exports.getContent = [
     content: [
         {
         title: 'Smart Internal Checker',
-        description: 'Made an intuitive and easy to use interface for checking out internal marks for the IInd year Computer Science students in SRM University. This has been designed entirly on Node.JS and database infrastructure is based on MongoDB. Apart from this have used Jade for the rendering the Ajax request to HTML.',
+        description: 'Made an intuitive and easy to use interface for checking out internal marks for the IInd year Computer Science students in SRM University. This has been designed entirly on Node.JS and database infrastructure is based on MongoDB. Apart from this I have used Jade for the rendering the Ajax request to HTML.',
         GitHub : {
           is: true,
           url: 'https://github.com/poke19962008/Zoho-SmartAnswer'
@@ -23,7 +23,23 @@ exports.getContent = [
           url: "./img/smart-answer.png",
           alt: "Smart Answer Interface"
         }
-      },
+      },{
+        title: "TalHat(on going)",
+        description: "The objective of TalHat is providing a platform for all kinds of people with all kinds of different professions and passions to represent themselves in a social plus professional work so as not only to communicate, meet , and know more people of same or different group but to also get hired for what they actually love to do.  Worked as Back End Developer and Technical Head.",
+        GitHub: {
+          is: true,
+          url: "https://github.com/poke19962008/TalHat",
+        },
+        img: {
+          is: true,
+          url: "./img/talhat.png",
+          alt: "TalHat"
+        },
+        link: {
+          is: true,
+          url: "http://talhat.com/",
+        }
+      }
     ]
   },
 
