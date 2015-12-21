@@ -59,5 +59,28 @@ exports.getContent = [
     ]
   },
 
-
+  {
+    title: "Mini Projects",
+    description: "Some of the apps developed during my pass times.",
+    img: {
+      src: "./img/miniprojects.png",
+      alt: "Mini Projects",
+    },
+    content:  [
+      {
+        title: "CC Rank Notifier",
+        description: "Daemon process made on Python, which notifies the user if any one have solved any problem from the ongoing contest on CodeChef. Fetches ranklist every 15min and gives core Mac OS X notifications.",
+        GitHub: {
+          is: true,
+          url: "https://github.com/poke19962008/CC-Rank-Notifier"
+        },
+        link: {
+          is: false,
+        },
+        img: {
+          is: false,
+        }
+      }
+    ]
+  },
 ];
