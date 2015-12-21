@@ -80,7 +80,59 @@ exports.getContent = [
         img: {
           is: false,
         }
+      },{
+        title: "Proxy Finder",
+        description: "Small Bash code that finds out hidden open proxy IP addresses at a contant port. This was made for the SRM hostel students to access internet when the primary proxy IP address is blocked.",
+        GitHub: {
+          is: true,
+          url: "https://github.com/poke19962008/Proxy-Finder"
+        },
+        link:{
+          is: false,
+        },
+        img: {
+          is: false,
+        }
+      },{
+        title: "Goal Notfier",
+        description: "Python process which notifies you with current live score feed from goal.com. Notifies the user when any team goals with Mac OS X native push notification.",
+        GitHub: {
+          is: true,
+          url: "https://github.com/poke19962008/MacGoalNotification"
+        },
+        link: {
+          is: false,
+        },
+        img:  {
+          is: false,
+        }
+      },{
+        title: "IDify",
+        description: "Made an iOS app in HackIndia 2015 hackathon that can verify the user on the basis of PAN, Adhaar, Voter, Driving License. Verification takes place from the respective self made Python CGI based APIs.It helps people and officials verify people's identity just a click away. It helps people avoiding forgery.A common platform to verify various IDs which has'nt been unified before altogether. This is improved UI and hassle free application",
+        GitHub: {
+          is: true,
+          url: "HackIndia-2015"
+        },
+        link: {
+          is: false,
+        },
+        img: {
+          is: false,
+        }
+      },{
+        title: "Pocket Cube Solver",
+        description: "CS-1005 Mini Project made on C++ using STL libraries. Solves 2x2x2 rubiks cube using Breadth First Search of Graph Theory. Inspired from MIT 6.006 Lecture-13 by Prof. Erik Demaine.",
+        GitHub: {
+          is: true,
+          url: "https://github.com/poke19962008/CS1005-Mini-Poject"
+        },
+        link: {
+          is: false,
+        },
+        img: {
+          is: false,
+        }
       }
     ]
-  },
+  }
 ];
