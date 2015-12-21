@@ -30,14 +30,30 @@ exports.getContent = [
           is: true,
           url: "https://github.com/poke19962008/TalHat",
         },
+        link: {
+          is: true,
+          url: "http://talhat.com/",
+        },
         img: {
           is: true,
           url: "./img/talhat.png",
           alt: "TalHat"
-        },
-        link: {
+        }
+      },{
+        title: "SudoCrawler 2015",
+        description: "SudoCrawler was  2 days online international cryptic contest. Rs1.5Lakhs was sponsored by IET and SRM University for the event. Event was nominated for Iconic Event of the Year-2015 from IET South Region. I was lead Web Developer, designed entire website on PHP and MySQL based servers.",
+        GitHub: {
           is: true,
-          url: "http://talhat.com/",
+          url: "https://github.com/poke19962008/SudoCrawler2015",
+        },
+        link:  {
+          is: true,
+          url: "webarchsrm.sudocrawler.com"
+        },
+        img: {
+          is: true,
+          url: "./img/sudocrawler.png",
+          alt: "Sudo Crawler Play Page"
         }
       }
     ]
