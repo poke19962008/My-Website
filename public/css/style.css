@@ -131,7 +131,7 @@ body{
 .my_works_title_img img {
   object-fit: fill;
   height: 290px;
-  -webkit-filter: drop-shadow(2px 2px 15px rgba(0,0,0,0.5));
+  -webkit-filter: drop-shadow(2px 2px 8px rgba(0,0,0,0.5));
 }
 
 .my_works_content {
