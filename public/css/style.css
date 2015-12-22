@@ -106,7 +106,7 @@ body{
 
   color: #444;
 
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 .my_works_desc{
@@ -139,8 +139,8 @@ body{
 }
 
 .my_works_content ul li{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   list-style: none;
   overflow: hidden;
 }
@@ -180,12 +180,12 @@ body{
 
 .my_works_content .img_right img{
   object-fit: fill;
-  height: 350px;
+  width: 578px;
 }
 
 .my_works_content .img_left img{
   object-fit: fill;
-  height: 350px;
+  width: 578px;
 }
 
 /* Social */
