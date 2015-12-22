@@ -1,7 +1,7 @@
 exports.getContent = [
   {
     title: 'Projects',
-    description: 'All of my major projects done in college. Some of my Jedi level skills are C/C++, JavaScript, Bash, Python and HTML in terms of language and Node.JS, jQuery, Mongo and Bootstrap in terms of frameworks. I am still Padawan learner in iOS Development, Java, PHP and django. But I know the force is with me.',
+    description: 'All of my major projects done in college. Most of it are Web Apps made on Node.JS.',
     img: {
       src: './img/project.png',
       alt: 'Project Image'

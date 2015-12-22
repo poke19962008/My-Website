@@ -11,7 +11,7 @@ $(document).ready(function (){
   }, 250);
 
   $.ajax({
-    url: "http://localhost:3500/getContent",
+    url: "http://sayandas.xyz/getContent",
     type: 'text/html',
     method: 'GET',
   }).done(function (msg){
@@ -57,10 +57,8 @@ $(document).ready(function (){
           easing   : 'ease-in',
           scale    : 1.1,
           mobile   : true,
-        });
-
-  window.sr = ScrollReveal()
-        .reveal(".reveal", {
+        })
+	.reveal(".reveal", {
           easing   : 'ease-in-out',
           origin   : 'right',
         });
