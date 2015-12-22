@@ -66,7 +66,7 @@ exports.getContent = [
       src: "./img/miniprojects.png",
       alt: "Mini Projects",
     },
-    content:  [
+    content: [
       {
         title: "CC Rank Notifier",
         description: "Daemon process made on Python, which notifies the user if any one have solved any problem from the ongoing contest on CodeChef. Fetches ranklist every 15min and gives core Mac OS X notifications.",
@@ -78,7 +78,8 @@ exports.getContent = [
           is: false,
         },
         img: {
-          is: false,
+          is: true,
+          url: "./img/CC.png"
         }
       },{
         title: "Proxy Finder",
@@ -104,6 +105,33 @@ exports.getContent = [
           is: false,
         },
         img:  {
+          is: true,
+          url: "./img/goal.png"
+        }
+      },{
+        title: "Pocket Cube Solver",
+        description: "CS-1005 Mini Project made on C++ using STL libraries. Solves 2x2x2 rubiks cube using Breadth First Search of Graph Theory. Inspired from MIT 6.006 Lecture-13 by Prof. Erik Demaine.",
+        GitHub: {
+          is: true,
+          url: "https://github.com/poke19962008/CS1005-Mini-Poject"
+        },
+        link: {
+          is: false,
+        },
+        img: {
+          is: false,
+        }
+      },{
+        title: "iCamel",
+        description: "iOS application for all SRMites which fetches data from evarsity and shows attendance details in fun and intuitive way to the student. Made on Xcode 7 with Swift 2.0. Deployed for iOS 9.0.",
+        GitHub: {
+          is: true,
+          url: "https://github.com/poke19962008/iCamel"
+        },
+        link: {
+          is: false,
+        },
+        img: {
           is: false,
         }
       },{
@@ -119,12 +147,24 @@ exports.getContent = [
         img: {
           is: false,
         }
-      },{
-        title: "Pocket Cube Solver",
-        description: "CS-1005 Mini Project made on C++ using STL libraries. Solves 2x2x2 rubiks cube using Breadth First Search of Graph Theory. Inspired from MIT 6.006 Lecture-13 by Prof. Erik Demaine.",
+      },
+    ]
+  },
+
+  {
+    title: "Research Works",
+    description: "I am very new to this field but I am catching up fast.",
+    img: {
+      src: "./img/bulb.png",
+      alt: "Research"
+    },
+    content: [
+      {
+        title: "French Accent Corrector",
+        description: "Unaccented text is common in electronic media. Due to lack of conventions of typing on keyboard and improper encoding of accented text languages like French, Spanish, Vietnamese etc can not cope in the electronic world. This can correctly insert character to make the sentence grammatically correct. As French is statistically widely used language, hence we focused on it. Software can be trained with french grammar and exceptions to read and understand. Various methods can be used to make the software more accurate like exploiting correction used by the user. This will use python library which is commercially available. Further it can be implemented on open source editors like Atom, Sublime and Emacs.",
         GitHub: {
           is: true,
-          url: "https://github.com/poke19962008/CS1005-Mini-Poject"
+          url: "https://github.com/poke19962008/French-Accent-Corrector"
         },
         link: {
           is: false,
