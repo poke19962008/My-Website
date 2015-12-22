@@ -1,3 +1,4 @@
+// Content for My Works
 exports.getContent = [
   {
     title: 'Projects',
@@ -176,3 +177,54 @@ exports.getContent = [
     ]
   }
 ];
+
+
+// Content for Skills
+exports.getSkills = [
+  {
+    src: "./img/skills/C++.png",
+    alt: "C++"
+  },{
+    src: "./img/skills/js.png",
+    alt: "Java Script",
+  },{
+    src: "./img/skills/node.png",
+    alt: "Node.JS"
+  },{
+    src: "./img/skills/jquery.png",
+    alt: "jQuery"
+  },{
+    src: "./img/skills/python.png",
+    alt: "Python"
+  },{
+    src: "./img/skills/html.png",
+    alt: "HTML 5"
+  },{
+    src: "./img/skills/css.png",
+    alt: "CSS"
+  },{
+    src: "./img/skills/mongo.png",
+    alt: "MongoDB"
+  },{
+    src: "./img/skills/mysql.png",
+    alt: "MySQL"
+  },{
+    src: "./img/skills/swift.png",
+    alt: "Swift"
+  },{
+    src: "./img/skills/bootstrap.png",
+    alt: "BootStrap"
+  },{
+    src: "./img/skills/php.png",
+    alt: "PHP"
+  },{
+    src: "./img/skills/java.png",
+    alt: "Java"
+  },{
+    src: "./img/skills/osx.png",
+    alt: "OS X"
+  },{
+    src: "./img/skills/ubuntu.png",
+    alt: "Ubuntu"
+  },
+]
