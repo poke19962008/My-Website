@@ -182,7 +182,7 @@ exports.getContent = [
 // Content for Skills
 exports.getSkills = [
   {
-    src: "./img/skills/C++.png",
+    src: "./img/skills/c++.png",
     alt: "C++"
   },{
     src: "./img/skills/js.png",

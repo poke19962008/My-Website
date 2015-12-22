@@ -17,6 +17,17 @@ $(document).ready(function (){
   })
   .done(function (msg){
     $(".skills").append(msg);
+    $(".skill_img").hover(function (){
+      $(this).css({
+        "-webkit-filter": "grayscale(0)",
+        "transition": "-webkit-filter 1s"
+      });
+    }, function (){
+      $(this).css({
+        "-webkit-filter": "grayscale(100%)",
+        "transition": "-webkit-filter 1s"
+      });
+    });
   });
 
   $.ajax({
