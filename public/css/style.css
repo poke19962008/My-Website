@@ -39,7 +39,7 @@ body{
 
   text-align: center;
 
-  padding-bottom: 50%;
+  height: 100vh;
 }
 
 
@@ -63,6 +63,7 @@ body{
 }
 
 #description .avatar {
+display: none;
   float: left;
 
   margin-top: 20px;
@@ -76,7 +77,6 @@ body{
 }
 
 #description .content {
-  margin-left: 500px;
   text-align: center;
 
   color: #EFF0F8;
@@ -84,6 +84,80 @@ body{
   font-weight: 200;
   font-size: 24px;
   margin-top: 20px;
+}
+
+
+@media only screen and (min-device-width: 768px) {
+  #description .content {
+    margin-left: 0%;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 998px) {
+  #description .content {
+    margin-left: 500px;
+  }
+}
+
+@media only screen and (min-device-width: 1201px) {
+  #description .content {
+    margin-left: 500px;
+  }
+
+  #description .avatar{
+    display: block;
+  }
+}
+
+/*Skills*/
+/*.skill_title at line:99*/
+
+.skills{
+  padding-top: 90px
+}
+
+.skill{
+  overflow: hidden;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  height: 120px;
+
+}
+
+.skill img {
+  object-fit: fill;
+  height: 100px;
+
+  padding-top: 10px;
+  padding-top: 10px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  -webkit-filter: drop-shadow(0px 0px 3px rgba(0,0,0,0.5));
+
+  -webkit-filter: grayscale(100%);
+}
+
+/*Small Screen*/
+@media only screen and (min-device-width: 768px) {
+
+}
+
+/*Medium Screen*/
+@media only screen and (min-device-width: 769px) and (max-device-width: 998px) {
+
+}
+
+/*Large Screen*/
+@media only screen and (min-device-width: 1201px) {
+  .skill {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 }
 
 /*My Works*/
@@ -272,41 +346,6 @@ footer .foot_note {
   font-size: 60px;
 }
 
-/*Skills*/
-/*.skill_title at line:99*/
-
-.skills{
-  padding-top: 90px
-}
-
-.skill{
-  overflow: hidden;
-
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-
-  height: 120px;
-
-}
-
-.skill img {
-  object-fit: fill;
-  height: 100px;
-
-  padding-top: 10px;
-  padding-top: 10px;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  -webkit-filter: drop-shadow(0px 0px 3px rgba(0,0,0,0.5));
-
-  -webkit-filter: grayscale(100%);
-}
-
 /*Blinking Cursor Initial*/
 .blinking-cursor {
   font-weight: normal;
@@ -361,4 +400,19 @@ footer .foot_note {
   50% {
     color: #A1A1A1;
   }
+}
+
+/*Small Screen*/
+@media only screen and (min-device-width: 768px) {
+
+}
+
+/*Medium Screen*/
+@media only screen and (min-device-width: 769px) and (max-device-width: 998px) {
+
+}
+
+/*Large Screen*/
+@media only screen and (min-device-width: 1201px) {
+
 }
