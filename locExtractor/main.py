@@ -15,15 +15,12 @@ fileName = {
 
 }
 
-# try_ = 2
 data = {}
-# doneFile = open('completed.txt', 'a')
 for project in os.listdir("data/"):
     for rawFile in open('data/' + project, 'r').read().split("\n")[:-1]:
-        # if rawFile not in open('completed.txt', 'r').read().split("\n") and try_ != 1:
-        #     continue
-
+        rawFile = rawFile.replace("https://raw.githubusercontent.com", "https://cdn.rawgit.com")
         try:
+            # print "[EXTRACTING] CDN: " + rawFile
             sourceCode = requests.get(rawFile)
             ext = rawFile.split(".")[-1]
             try:
@@ -40,7 +37,6 @@ for project in os.listdir("data/"):
             print "[SUCCESS] GET: " + rawFile
         except:
             print "[ERROR] Cannot GET: " + rawFile
-            # doneFile.write(rawFile + "\n")
 
 file_ = open("loc.json", 'w')
 file_.write(json.dumps(data, indent=2))
