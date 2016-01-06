@@ -1,4 +1,4 @@
-# Extracted data is present at ./loc.json
+# Extracted data is present at ../loc.json
 
 import os, requests, json
 
@@ -38,5 +38,6 @@ for project in os.listdir("data/"):
         except:
             print "[ERROR] Cannot GET: " + rawFile
 
+os.chdir("../")
 file_ = open("loc.json", 'w')
 file_.write(json.dumps(data, indent=2))

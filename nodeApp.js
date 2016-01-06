@@ -19,6 +19,13 @@ app.get('/getSkills', function(req, res){
   res.render('skills_template.jade', { skills: skills });
 });
 
+app.get("/getLOC", function (req, res){
+  fs.readFile("./loc.json", 'utf-8', function (err, data){
+    data = JSON.parse(data);
+    res.send(data)
+  });
+});
+
 app.get('/*', function (req, res){
 	res.redirect('/404');
 });

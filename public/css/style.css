@@ -110,7 +110,7 @@ display: none;
 }
 
 /*Skills*/
-/*.skill_title at line:99*/
+/*.skill_title at line:173*/
 
 .skills{
   padding-top: 90px
@@ -160,6 +160,11 @@ display: none;
   }
 }
 
+/* Lines of Code */
+.chart {
+  padding-top: 90px
+}
+
 /*My Works*/
 #my_works{
   background: #ECE9E6;
@@ -170,7 +175,7 @@ display: none;
   padding-bottom: 20px;
 }
 
-.my_works_title, .skill_title{
+.my_works_title, .skill_title, .loc_title{
   font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-size: 72px;
   line-height: 1.0556;

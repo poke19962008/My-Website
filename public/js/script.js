@@ -1,3 +1,5 @@
+var nodeHost = "http://localhost:3500/";
+
 $(document).ready(function (){
   $("#loading").remove();
   $("body").css('visibility', 'visible');
@@ -10,8 +12,9 @@ $(document).ready(function (){
     if(len == 9) clearInterval(timer);
   }, 250);
 
+  // Skills AJAX
   $.ajax({
-    url: "http://localhost:3500/getSkills",
+    url: nodeHost + "getSkills",
     type: 'text/html',
     method: "GET",
   })
@@ -30,8 +33,53 @@ $(document).ready(function (){
     });
   });
 
+  // Lines of Code AJAX
   $.ajax({
-    url: "http://localhost:3500/getContent",
+    url: nodeHost + "getLOC",
+    type: 'json',
+    method: "GET",
+  })
+  .done(function (loc){
+    var data = {
+      labels: [],
+      series: [],
+    };
+
+    var options = {
+      distributeSeries: true,
+      height: 500,
+    };
+
+    var responsiveOptions = [
+      ['screen and (min-width: 641px) and (max-width: 1024px)', {
+        seriesBarDistance: 10,
+        axisX: {
+          labelInterpolationFnc: function (value) {
+            return value;
+          }
+        }
+      }],
+      ['screen and (max-width: 640px)', {
+        seriesBarDistance: 5,
+        axisX: {
+          labelInterpolationFnc: function (value) {
+            return value[0];
+          }
+        }
+      }]
+    ];
+
+    for (var key in loc) {
+      data.labels.push(key);
+      data.series.push(loc[key]);
+    }
+
+    var locChart = new Chartist.Bar('.ct-chart', data, options, responsiveOptions);
+  });
+
+  // Projcts Content AJAX
+  $.ajax({
+    url: nodeHost + "getContent",
     type: 'text/html',
     method: 'GET',
   }).done(function (msg){
