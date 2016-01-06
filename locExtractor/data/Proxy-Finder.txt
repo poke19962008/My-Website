@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/poke19962008/Proxy-Finder/master/proxy.sh
+https://raw.githubusercontent.com/poke19962008/Proxy-Finder/master/proxyMT.sh

@@ -1,0 +1,11 @@
+https://raw.githubusercontent.com/poke19962008/Python-Crawlers/master/Animals/crawler/main.py
+https://raw.githubusercontent.com/poke19962008/Python-Crawlers/master/Animals/module/main.py
+https://raw.githubusercontent.com/poke19962008/Python-Crawlers/master/Bank/Code/main.py
+https://raw.githubusercontent.com/poke19962008/Python-Crawlers/master/Countries/Code/main.py
+https://raw.githubusercontent.com/poke19962008/Python-Crawlers/master/Electronics/Crawler/main.py
+https://raw.githubusercontent.com/poke19962008/Python-Crawlers/master/Electronics/Retrieval/keywordExtractor.py
+https://raw.githubusercontent.com/poke19962008/Python-Crawlers/master/Electronics/Retrieval/retrieval.py
+https://raw.githubusercontent.com/poke19962008/Python-Crawlers/master/Football/Crawler/main.py
+https://raw.githubusercontent.com/poke19962008/Python-Crawlers/master/Nobel%20Laureates/Code/main.py
+https://raw.githubusercontent.com/poke19962008/Python-Crawlers/master/date/retrieval/retrieval.py
+https://raw.githubusercontent.com/poke19962008/Python-Crawlers/master/date/retrieval/sql2json.py
