@@ -1,0 +1,15 @@
+https://raw.githubusercontent.com/poke19962008/TalHat/master/startServers.js
+https://raw.githubusercontent.com/poke19962008/TalHat/master/profile.js
+https://raw.githubusercontent.com/poke19962008/TalHat/master/login.js
+https://raw.githubusercontent.com/poke19962008/TalHat/master/expressApp.js
+https://raw.githubusercontent.com/poke19962008/TalHat/master/config.js
+https://raw.githubusercontent.com/poke19962008/TalHat/master/auth.js
+https://raw.githubusercontent.com/poke19962008/TalHat/master/automate/addTestUsers/main.py
+https://raw.githubusercontent.com/poke19962008/TalHat/master/automate/cleanDB/main.py
+https://raw.githubusercontent.com/poke19962008/TalHat/master/automate/insertPassion/main.py
+https://raw.githubusercontent.com/poke19962008/TalHat/master/db/mongo.js
+https://raw.githubusercontent.com/poke19962008/TalHat/master/views/profile/index.jade
+https://raw.githubusercontent.com/poke19962008/TalHat/master/views/profile/leftPassion.jade
+https://raw.githubusercontent.com/poke19962008/TalHat/master/views/profile/middleResult.jade
+https://raw.githubusercontent.com/poke19962008/TalHat/master/views/profile/rightProfile.jade
+https://raw.githubusercontent.com/poke19962008/TalHat/master/views/profile/partials/otherUser.jade

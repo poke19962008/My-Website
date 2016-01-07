@@ -1,0 +1,8 @@
+https://raw.githubusercontent.com/poke19962008/My-Website/master/nodeApp.js
+https://raw.githubusercontent.com/poke19962008/My-Website/master/views/template.jade
+https://raw.githubusercontent.com/poke19962008/My-Website/master/views/skills_template.jade
+https://raw.githubusercontent.com/poke19962008/My-Website/master/locExtractor/main.py
+https://raw.githubusercontent.com/poke19962008/My-Website/master/data/content.js
+https://raw.githubusercontent.com/poke19962008/My-Website/master/public/index.html
+https://raw.githubusercontent.com/poke19962008/My-Website/master/public/js/script.js
+https://raw.githubusercontent.com/poke19962008/My-Website/master/public/css/style.css

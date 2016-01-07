@@ -1,8 +1,11 @@
 {
-  "Shell": 69, 
-  "Python": 965, 
-  "JavaScript": 577, 
-  "HTML": 148, 
-  "Swift": 546, 
-  "CSS": 87
+  "Shell": 79, 
+  "Python": 1403, 
+  "Jade": 447, 
+  "JavaScript": 2805, 
+  "C++": 6767, 
+  "HTML": 427, 
+  "PHP": 1593, 
+  "Swift": 706, 
+  "CSS": 1144
 }

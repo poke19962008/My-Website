@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/poke19962008/MacGoalNotification/master/main.py
+https://raw.githubusercontent.com/poke19962008/MacGoalNotification/master/launcher.sh

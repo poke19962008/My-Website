@@ -1,0 +1,16 @@
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/test.js
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/index.js
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/expressApp.js
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/scrapper/main.py
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/routes/normalize.js
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/routes/queryAnswer.js
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/routes/regexStore.js
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/views/card.jade
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/views/compareCard.jade
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/views/invalidCard.jade
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/views/nameCard.jade
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/public/index.html
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/public/js/script.js
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/public/css/style.css
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/public/login/index.html
+https://raw.githubusercontent.com/poke19962008/Zoho-SmartAnswer/master/public/login/js/script.js

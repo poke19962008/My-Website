@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/poke19962008/CS1005-Mini-Poject/master/rubik.h
+https://raw.githubusercontent.com/poke19962008/CS1005-Mini-Poject/master/solver.cpp

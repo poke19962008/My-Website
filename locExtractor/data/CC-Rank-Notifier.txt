@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/poke19962008/CC-Rank-Notifier/master/main.py

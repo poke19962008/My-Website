@@ -12,7 +12,9 @@ fileName = {
     "h": "C++",
     "cpp": "C++",
     "sh": "Shell",
-
+    "php": "PHP",
+    "jade": "Jade",
+    "CPP": "C++"
 }
 
 data = {}
