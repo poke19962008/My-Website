@@ -1,5 +1,3 @@
-var nodeHost = "http://localhost:3500/";
-
 $(document).ready(function (){
   $("#loading").remove();
   $("body").css('visibility', 'visible');
@@ -14,7 +12,7 @@ $(document).ready(function (){
 
   // Skills AJAX
   $.ajax({
-    url: nodeHost + "getSkills",
+    url: "/getSkills",
     type: 'text/html',
     method: "GET",
   })
@@ -35,7 +33,7 @@ $(document).ready(function (){
 
   // Lines of Code AJAX
   $.ajax({
-    url: nodeHost + "getLOC",
+    url: "/getLOC",
     type: 'json',
     method: "GET",
   })
@@ -79,7 +77,7 @@ $(document).ready(function (){
 
   // Projcts Content AJAX
   $.ajax({
-    url: nodeHost + "getContent",
+    url: "/getContent",
     type: 'text/html',
     method: 'GET',
   }).done(function (msg){
