@@ -351,6 +351,17 @@ footer .foot_note {
   font-size: 60px;
 }
 
+/*Google Maps*/
+.maps {
+    padding-top: 9%;
+    object-fit: fill;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
+}
+
+.maps img {
+  width: 100%;
+}
+
 /*Blinking Cursor Initial*/
 .blinking-cursor {
   font-weight: normal;
