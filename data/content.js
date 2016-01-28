@@ -83,6 +83,21 @@ exports.getContent = [
           url: "./img/CC.png"
         }
       },{
+        title: "Teacher statistics",
+        description: "Visualisation of teacher's performance from the student records. Shows graphical representation for teacher's performance of 2015-16 batch.",
+        GitHub: {
+          is: true,
+          url: "https://github.com/poke19962008/Teacher-Stats"
+        },
+        link:{
+          is: true,
+          url: "http://sayandas.xyz/teacher"
+        },
+        img: {
+          is: true,
+          url: "./img/teacher-stats.png"
+        }
+      },{
         title: "Proxy Finder",
         description: "Small Bash code that finds out hidden open proxy IP addresses at a contant port. This was made for the SRM hostel students to access internet when the primary proxy IP address is blocked.",
         GitHub: {
