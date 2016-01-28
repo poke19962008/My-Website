@@ -84,7 +84,7 @@ exports.getContent = [
         }
       },{
         title: "Teacher statistics",
-        description: "Visualisation of teacher's performance from the student records. Shows graphical representation for teacher's performance of 2015-16 batch.",
+        description: "Visualisation of teacher's performance on the basis of student records. Shows graphical representation of teacher's performance for 2015-16 batch. Database consists of total 478 teachers.",
         GitHub: {
           is: true,
           url: "https://github.com/poke19962008/Teacher-Stats"
