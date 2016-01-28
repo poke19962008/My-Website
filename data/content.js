@@ -49,7 +49,7 @@ exports.getContent = [
         },
         link:  {
           is: true,
-          url: "webarchsrm.sudocrawler.com"
+          url: "http://webarchsrm.sudocrawler.com"
         },
         img: {
           is: true,
