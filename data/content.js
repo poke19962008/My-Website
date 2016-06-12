@@ -209,6 +209,9 @@ exports.getSkills = [
     src: "./img/skills/jquery.png",
     alt: "jQuery"
   },{
+     src: "./img/skills/angular.png",
+     alt: "Angular"
+  },{
     src: "./img/skills/python.png",
     alt: "Python"
   },{
@@ -241,5 +244,5 @@ exports.getSkills = [
   },{
     src: "./img/skills/ubuntu.png",
     alt: "Ubuntu"
-  },
+  }
 ]
