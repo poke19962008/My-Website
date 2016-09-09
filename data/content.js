@@ -244,5 +244,8 @@ exports.getSkills = [
   },{
     src: "./img/skills/ubuntu.png",
     alt: "Ubuntu"
+  },{
+    src: "./img/skills/loopback.png",
+    alt: 'Loopback'
   }
 ]
